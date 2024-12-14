@@ -161,6 +161,9 @@ class DROCCTrainer:
         assert not torch.isnan(adv_loss), "NAN"
         return adv_loss
     
+    def get_model(self):
+        return self.model
+    
 
 def adjust_learning_rate(epoch, total_epochs, only_ce_epochs, learning_rate, optimizer):
         """Adjust learning rate during training.
