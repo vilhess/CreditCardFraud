@@ -28,5 +28,5 @@ It contains transactions made by European cardholders over two days, with 492 fr
 ## TO-DO
 
 1. **Implement Variational Autoencoder (VAE)**:  
-   Use reconstruction loss to identify anomalies.
+Use reconstruction loss to identify anomalies.
 ---
