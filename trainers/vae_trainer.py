@@ -5,7 +5,7 @@ class LossVAE(nn.Module):
     def __init__(self):
         super(LossVAE, self).__init__()
 
-        self.rec_loss = nn.BCELoss(reduction="sum")
+        self.rec_loss = nn.MSELoss(reduction="sum")
 
     def kl_div(self, mu, logvar):
         loss = torch.mean(-0.5 * torch.sum(1+logvar - mu**2 - logvar.exp(), dim=1), dim=0)
