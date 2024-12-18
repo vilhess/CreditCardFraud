@@ -29,4 +29,6 @@ It contains transactions made by European cardholders over two days, with 492 fr
 ## TO-DO
 
 Use a validation set to create p-values using [Testing for Outliers with Conformal p-values](https://arxiv.org/abs/2104.08279) and calculate differents metrics such as F1 Score, Precision, Recall for multiple threshold, and maybe a streamlit interface to play with threshold.
+Furthermore, implement a Gradient Boosting algorithms under the supervised setting as a baseline
+
 ---
