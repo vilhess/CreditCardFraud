@@ -14,6 +14,7 @@ The dataset used for this project is available on [Kaggle](https://www.kaggle.co
    - One-Class SVM, an established method for unsupervised anomaly detection,
    - [Deep SVDD](https://proceedings.mlr.press/v80/ruff18a.html),
    - [DROCC](https://arxiv.org/abs/2002.12718).
+   - A VAE using as a score the reconstruction loss.
 
 ---
 
