@@ -11,7 +11,7 @@ The dataset used for this project is available on [Kaggle](https://www.kaggle.co
 1. Apply Unsupervised algorithms to detect anomalies in credit card transactions.
 2. We Compare the performance of:
    - A basic classifier trained in a supervised setting,
-   - One-Class SVM, an established method for unsupervised anomaly detection,
+   - A Gradient-Boosting classifier in a supervised setting,
    - [Deep SVDD](https://proceedings.mlr.press/v80/ruff18a.html),
    - [DROCC](https://arxiv.org/abs/2002.12718).
    - A VAE using as a score the reconstruction loss.

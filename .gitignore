@@ -1,2 +1,4 @@
 __pycache__/
 nbs/
+*.csv
+catboost_info/
