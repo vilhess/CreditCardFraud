@@ -30,13 +30,13 @@ It contains transactions made by European cardholders over two days, with 492 fr
 
 ## Results
 
-| Metric         | Basic NN Supervised | One-Class SVM SGD | Deep SVDD | DROCC    | VAE      |
-|----------------|----------------------|-------------------|-----------|----------|----------|
-| ROC-AUC Scores | 0.937028            | 0.505303          | 0.950257  | 0.954082 | 0.931480 |
-| F1 Scores      | 0.993953            | 0.002650          | 0.995779  | 0.996367 | 0.994780 |
-| Accuracy       | 0.987992            | 0.016755          | 0.991601  | 0.992767 | 0.989621 |
-| Precision      | 0.999701            | 0.001327          | 0.999561  | 0.999689 | 0.999305 |
-| Recall         | 0.988271            | 0.989362          | 0.992026  | 0.993067 | 0.990296 |
+| Metric               | Basic NN Supervised | Gradient Boosting | Deep SVDD | DROCC  | VAE    |
+|----------------------|---------------------|-------------------|-----------|--------|--------|
+| **ROC-AUC Scores**    | 0.942619            | 0.969196          | 0.946778  | 0.955337 | 0.922005 |
+| **F1 Scores**         | 0.994224            | 0.995913          | 0.996056  | 0.996430 | 0.994965 |
+| **Accuracy**          | 0.988526            | 0.991868          | 0.992149  | 0.992893 | 0.989986 |
+| **Precision**         | 0.999716            | 0.999773          | 0.999561  | 0.999689 | 0.999319 |
+| **Recall**            | 0.988792            | 0.992082          | 0.992575  | 0.993193 | 0.990648 |
 
 
 ---
@@ -44,6 +44,5 @@ It contains transactions made by European cardholders over two days, with 492 fr
 ## TO-DO
 
 Streamlit interface to play with threshold.
-Furthermore, implement a Gradient Boosting algorithms under the supervised setting as a baseline
 
 ---
